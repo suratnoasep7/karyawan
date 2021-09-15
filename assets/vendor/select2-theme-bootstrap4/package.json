@@ -1,0 +1,84 @@
+{
+  "_from": "select2-theme-bootstrap4",
+  "_id": "select2-theme-bootstrap4@0.2.0-beta.6",
+  "_inBundle": false,
+  "_integrity": "sha512-e2qWK+hA5o/Dpy+xrdDBGkqQnPb3QJC4n4xL94nn/qjbQOyVWFF25LCFqNDriuwHPir7GlXz8JOcP/6z+Kd6+Q==",
+  "_location": "/select2-theme-bootstrap4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "select2-theme-bootstrap4",
+    "name": "select2-theme-bootstrap4",
+    "escapedName": "select2-theme-bootstrap4",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/select2-theme-bootstrap4/-/select2-theme-bootstrap4-0.2.0-beta.6.tgz",
+  "_shasum": "a2c45b49e7e11ad882ab3eb7eb7f880d06cfc0e6",
+  "_spec": "select2-theme-bootstrap4",
+  "_where": "C:\\xampp\\htdocs\\dormitory",
+  "author": {
+    "name": "Florian Kissling"
+  },
+  "bugs": {
+    "url": "https://github.com/angel-vladov/select2-bootstrap-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A theme for Select2 v4 and Bootstrap 4.",
+  "devDependencies": {
+    "Respond.js": "github:scottjehl/Respond#1.4.2",
+    "anchor-js": "^3.2.1",
+    "autoprefixer": "^6.4.0",
+    "bootstrap": "^4.0.0",
+    "diff": "^2.2.3",
+    "grunt": "^1.0.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^1.2.0",
+    "grunt-jekyll": "^0.4.7",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.1.0",
+    "grunt-sass-tilde-importer": "^1.0.2",
+    "grunt-scss2less": "0.0.1",
+    "grunt-stamp": "^0.3.0",
+    "matchdep": "^1.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://angel-vladov.github.io/select2-bootstrap-theme",
+  "keywords": [
+    "bootstrap",
+    "select2",
+    "css",
+    "sass",
+    "less"
+  ],
+  "license": "MIT",
+  "main": "",
+  "name": "select2-theme-bootstrap4",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/angel-vladov/select2-bootstrap-theme.git"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "serve": "grunt serve",
+    "test": "grunt nodeunit"
+  },
+  "style": "dist/select2-bootstrap.css",
+  "version": "0.2.0-beta.6"
+}
